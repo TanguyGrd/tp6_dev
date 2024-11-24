@@ -1,7 +1,7 @@
 import requests
 import sys
 
-DL_FILE = "D:\\tp6_dev\\tp6_dev\\web_page.html"
+DL_FILE = "D:\\tp6_dev\\web_page.html"
 
 sys.argv[1:]
 

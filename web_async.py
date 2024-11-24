@@ -3,7 +3,7 @@ import aiofiles
 import sys
 import asyncio
 
-DL_FILE = "D:\\tp6_dev\\tp6_dev\\web_page.html"
+DL_FILE = "D:\\tp6_dev\\web_page.html"
 
 async def write_content(content: bytes, file: str):
     async with aiofiles.open(file, mode="w", encoding="utf-8") as out:
